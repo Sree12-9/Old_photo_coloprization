@@ -189,7 +189,7 @@ if uploaded_file is not None:
                 st.image(
                     color_image,
                     caption="GAN colorized output",
-                    use_container_width=Trueo
+                    use_container_width=True
                 )
 
             # Prepare downloadable PNG
